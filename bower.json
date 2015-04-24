@@ -1,0 +1,23 @@
+{
+  "name": "sgb-screen-signup",
+  "version": "0.0.0",
+  "authors": [
+    "Juan Garcia <juan.garcia@synergy-gb.com>"
+  ],
+  "main": "dist/sgb-screen-signup.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Propietary",
+  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-signup.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "megazord-framework": "git@github.com:SYNERGY-GB/megazord-framework.git#master"
+  }
+}
