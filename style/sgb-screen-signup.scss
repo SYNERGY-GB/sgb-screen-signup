@@ -1,0 +1,14 @@
+$signup-background: '../resources/bg.png';
+
+.sigupBackground {
+  background: url($signup-background) no-repeat center;
+  background-size: 100%;
+}
+
+.signupTitle {
+  color: white;
+}
+
+.opaque {
+  opacity: 0.9;
+}
