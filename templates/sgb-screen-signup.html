@@ -6,29 +6,29 @@
       </div>
       <label class="item item-input item-stacked-label">
         <span class="input-label" translate="name_label"></span>
-        <input type="text" placeholder="{{ 'params.namePlaceHolder'}}">
+        <input type="text" placeholder="{{ params.namePlaceHolder }}">
       </label>
       <label class="item item-input item-stacked-label">
         <span class="input-label" translate="last_name_label"></span>
-        <input type="text" placeholder="{{ 'params.lastNamePlaceHolder'}}">
+        <input type="text" placeholder="{{ params.lastNamePlaceHolder }}">
       </label>
       <label class="item item-input item-stacked-label">
         <span class="input-label" translate="email_label"></span>
-        <input type="text" placeholder="{{ 'params.emailPlaceHolder' }}">
+        <input type="text" placeholder="{{ params.emailPlaceHolder }}">
       </label>
       <label class="item item-input item-stacked-label">
         <span class="input-label" translate="phone_label"></span>
-        <input type="text" placeholder="{{ 'params.phonePlaceHolder' }}">
+        <input type="text" placeholder="{{ params.phonePlaceHolder }}">
       </label>
       <div ng-repeat="field in params.extras">
         <label class="item item-input item-stacked-label">
           <span class="input-label">{{ field.label }}</span>
-          <input type="text" placeholder="{{ 'field.placeholder' }}">
+          <input type="text" placeholder="{{ field.placeholder }}">
         </label>
       </div>
       <label class="item item-input item-stacked-label" ng-show="params.message">
         <span class="input-label">{{ params.message.label }}</span>
-        <textarea placeholder="{{ 'params.message.placeHolder' }}"></textarea>
+        <textarea placeholder="{{ params.message.placeHolder }}"></textarea>
       </label>
     </div>
     <button class="button button-block button-positive" ng-click="performSubmit()">
